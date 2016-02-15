@@ -53,17 +53,17 @@ sudo -i
 cd /root
 ```
 
-9. Download additional component we need for compiling the Robocup server and monitor
+11. Download additional component we need for compiling the Robocup server and monitor
 ```bash
 wget http://ftp.gnu.org/gnu/bison/bison-2.7.1.tar.gz
 ```
 
-10. Extract it and switch into the directory
+12. Extract it and switch into the directory
 ```bash
 tar xfvz bison-2.7.1.tar.gz && cd bison-2.7.1
 ```
 
-11. Compile bison and install it
+13. Compile bison and install it
 ```bash
 ./configure && make && make install && cd /root
 ```
@@ -71,44 +71,44 @@ tar xfvz bison-2.7.1.tar.gz && cd bison-2.7.1
 After we set up the environment, we can compile the Robocup software.
 
 ### Compiling Robocup server
-12. Download Robocup server
+14. Download Robocup server
 ```bash
 wget http://heanet.dl.sourceforge.net/project/sserver/rcssserver/15.2.2/rcssserver-15.2.2.tar.gz
 ```
 
-13. Extract it and switch into the directory
+15. Extract it and switch into the directory
 ```bash
 tar xfvz rcssserver-15.2.2.tar.gz && cd rcssserver-15.2.2
 ```
 
-14. Compile the server software and install it
+16. Compile the server software and install it
 ```bash
 ./configure --prefix=/ --exec-prefix=/ --with-boost-libdir=/usr/lib/x86_64-linux-gnu/ && make && make install && cd /root
 ```
 
 ### Compiling Robocup monitor
-15. Download Robocup monitor
+17. Download Robocup monitor
 ```bash
 wget http://heanet.dl.sourceforge.net/project/sserver/rcssmonitor/15.1.1/rcssmonitor-15.1.1.tar.gz
 ```
 
-16. Extract it and switch into the directory
+18. Extract it and switch into the directory
 ```bash
 tar xfvz rcssmonitor-15.1.1.tar.gz && cd rcssmonitor-15.1.1
 ```
 
-17. Compile the monitor software and install it
+19. Compile the monitor software and install it
 ```bash
 ./configure --prefix=/ --exec-prefix=/ --with-boost-libdir=/usr/lib/x86_64-linux-gnu/ && make && make install && cd /root
 ```
 
 ### Starting
-18. To start the Robocup server software start a terminal and run... (You need to run it twice because the first time it will crash or what ever)
+20. To start the Robocup server software start a terminal and run... (You need to run it twice because the first time it will crash or what ever)
 ```bash
 rcssserver
 ```
 
-19. To start the Robocup monitor software start another terminal and run...
+21. To start the Robocup monitor software start another terminal and run...
 ```bash
 rcssmonitor
 ```
