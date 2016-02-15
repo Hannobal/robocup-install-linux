@@ -7,7 +7,7 @@
 You have to be logged in as root to run the following commands (or you use sudo)!
 
 
-2. Update /etc/apt/sources.list to...
+2. Update /etc/apt/sources.list to... (Optional, but recommended)
     ```bash
     ###### Ubuntu Main Repos
     deb http://de.archive.ubuntu.com/ubuntu/ wily main restricted universe multiverse
