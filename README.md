@@ -1,7 +1,7 @@
 # Robocup
 
 ## Setting up the environment
-1. Install newest version of Xubuntu (here: 15.10). You can also install any other Ubuntu version, but Xubuntu is very small and leightweight.
+1. Install newest version of Xubuntu (here: 15.10 64-bit). You can also install any other versions Ubuntu or Linux system, but Xubuntu is very small and leightweight.
 
 
 You have to be logged in as root to run the following commands (or you use sudo)!
